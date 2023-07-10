@@ -211,6 +211,8 @@ span{
 }
 
 /* hot deal content code end here  */
+
+/* instagram photo corner code start here  */
 .instagram-photo{
     height: 400px;
     width: 100%;
@@ -224,5 +226,13 @@ span{
     height: 350px;
     border-radius: 5px;
     padding: 20px;
+}
+
+/* instagram photo corner code end here  */
+
+#latest-deals{
+    height: 400px;
+    width: 80%;
+   
 }
 
