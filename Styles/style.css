@@ -10,6 +10,29 @@ body{
 
 /* Banner Container Code Start here  */
 
+.menu-section{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav > ul li:hover{
+    background-color: #E55473;
+    color: white;
+    transition: 0.5s;
+}
+
+
 .banner-container{
     height: 90vh;
     width: 100%;
