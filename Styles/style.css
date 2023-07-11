@@ -1,6 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -229,16 +232,56 @@ span{
 
 }
 
-
-
 /* instagram photo corner code end here  */ 
-.latest-deals{
+.last-second{
     height: 300px;
     width: 80%;
-    /* background-image: url(''); */
-    background-color: gray;
+    background-image: url('../Styles/Rectangle\ 9.png');
+    border-radius: 10px;
+    display: block;
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 30px;
+}
+.last-content{
+    height: 300px;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    justify-content: space-around;
+}
+.title-last{
+    /* margin-top: 100px; */
+    font-size: 40px;
+    font-weight: 700;  
+    margin-left: -70px;
+}
+.last-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: -200px;
+}
+.last-input{
+    width: 450px;
+    height: 50px;
+    margin-left: -140px;
+    border-radius: 4px;
+    background: #FFF;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
 }
 
+.last-btn{
+    height: 50px;
+    width: 130px;
+}
 .footer-section{
     height: 450px;
     width: 100%;
@@ -246,6 +289,7 @@ span{
     text-align: center;
     align-items: center;
     position: absolute;
+    margin-top: 100px;
 }
 
 .footer-section h1{
