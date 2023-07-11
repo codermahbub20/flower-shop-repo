@@ -226,6 +226,49 @@ span{
     height: 350px;
     border-radius: 5px;
     padding: 20px;
+
 }
 
+
+
 /* instagram photo corner code end here  */ 
+.latest-deals{
+    height: 300px;
+    width: 80%;
+    /* background-image: url(''); */
+    background-color: gray;
+}
+
+.footer-section{
+    height: 450px;
+    width: 100%;
+    background: #111010;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+
+.footer-section h1{
+    color: white;
+    margin-top: 120px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.foot-desc{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    width: 625px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 120px;
+    margin-top: 20px;
+}
