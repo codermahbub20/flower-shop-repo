@@ -17,6 +17,10 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.menu-logo h1:hover{
+    transform: scale(1.5); 
+    cursor: pointer;
+}
 nav > ul{
     list-style: none;
     display: flex;
@@ -30,6 +34,7 @@ nav > ul li:hover{
     background-color: #E55473;
     color: white;
     transition: 0.5s;
+    transform: scale(1.5); 
 }
 
 
@@ -169,6 +174,9 @@ nav > ul li:hover{
     height: 320px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px gray;
+}
+.flowers img:hover{
+    transform: scale(1.2); 
 }
 .flowers h2{
     text-align: center;
